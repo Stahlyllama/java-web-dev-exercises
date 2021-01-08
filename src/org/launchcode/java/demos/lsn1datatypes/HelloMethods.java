@@ -6,5 +6,8 @@ public class HelloMethods {
         String message = Message.getMessage("fr");
         System.out.println(message);
     }
-
+   private static void main1(String[] args) {
+        String message = Message.getMessage("ge");
+        System.out.println(message);
+    }
 }
