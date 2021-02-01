@@ -13,6 +13,10 @@ public class Teacher {
         this.yearsTeaching = yearsTeaching;
     }
 
+    public Teacher() {
+
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }

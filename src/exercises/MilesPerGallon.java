@@ -14,6 +14,6 @@ class MilesPerGallon {
     }
     static double distance(double miles, double gallons) {
 
-        return miles/gallons;
+        return miles / gallons;
     }
 }
