@@ -1,6 +1,6 @@
 package exercises.ch7_technology.main;
 
-public class Laptop extends Computer{
+public class Laptop extends exercises.ch7_technology.main.Computer {
 
     //Class Variables(properties)
     private boolean isIntelliJOpen;
@@ -23,5 +23,8 @@ public boolean setIsIntelliJOpen(boolean isIntelliJOpen){return this.isIntelliJO
 public void openIntelliJ(){
     this.isIntelliJOpen = true;
     System.out.println("IntelliJ is now open!");
+    }
+
+    public int processTwoPlusTwo() {
     }
 }

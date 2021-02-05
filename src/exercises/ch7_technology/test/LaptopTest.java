@@ -24,12 +24,22 @@ public class LaptopTest {
             assertEquals(true, this.myLaptop.getIsIntelliJOpen());
         }
 
-        @Test
+    private void assertEquals(String s, String manufacturerDate) {
+    }
+
+    private void assertEquals(boolean b, boolean isIntelliJOpen) {
+    }
+
+    @Test
         public void twoPlusTwoReturnsFour() {
             int result = this.myLaptop.processTwoPlusTwo();
             assertEquals(4, result);
         }
-        @Test
+
+    private void assertEquals(int i, int result) {
+    }
+
+    @Test
         public void openIntelliJSetsIsIntelliJOpenToTrue(){
             this.myLaptop.setIsIntelliJOpen(false); //this sets isIntelliJOpen to false
             assertEquals(false, this.myLaptop.getIsIntelliJOpen());
