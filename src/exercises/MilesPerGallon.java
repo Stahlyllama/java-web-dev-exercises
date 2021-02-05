@@ -14,6 +14,10 @@ class MilesPerGallon {
     }
     static double distance(double miles, double gallons) {
 
+<<<<<<< HEAD
         return miles/gallons;
+=======
+        return miles / gallons;
+>>>>>>> origin/master
     }
 }

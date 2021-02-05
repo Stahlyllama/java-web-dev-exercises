@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn7interfaces;
+/*package org.launchcode.java.demos.lsn7interfaces;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,6 +27,14 @@ public class Case {
         flavors.add(flavor3);
         flavors.add(flavor4);
         flavors.add(flavor5);
+
+        Topping topping1 = new Topping("Peanuts", .10, "peanuts")), 7);
+        Topping topping2 = new Topping("Sprinkles", .07, "sugar, yellow No. 5")), 8);
+        Topping topping3 = new Topping("Whipped Cream", .50, "dairy")), 10);
+        this.toppings.add(topping1);
+        this.toppings.add(topping2);
+        this.toppings.add(topping3);
+
     }
 
     public ArrayList<Flavor> getFlavors() {
@@ -37,6 +45,8 @@ public class Case {
         return cones;
     }
 
+    public ArrayList<Topping> getToppings(){ return this.toppings; }
+
     public void setFlavors(ArrayList<Flavor> flavors) {
         this.flavors = flavors;
     }
@@ -44,4 +54,11 @@ public class Case {
     public void setCones(ArrayList<Cone> cones) {
         this.cones = cones;
     }
+
+    public void setToppings(ArrayList<Topping> toppings {
+        this.toppings = toppings;
+
+    }
 }
+
+ */
